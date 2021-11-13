@@ -10,11 +10,6 @@
           Dream Tourist
         </q-toolbar-title>
 
-        <!--<q-input dark bottom-slots v-model="text" placeholder="Search with keyword" :dense="dense" class="col-md-4">
-        <template v-slot:prepend>
-          <q-icon class="text-white" name="search"></q-icon>
-        </template>
-      </q-input>-->
 
       <q-select dark v-model="model" :options="options" label="請選擇縣市" class="col-md-3"></q-select>
       <q-btn
